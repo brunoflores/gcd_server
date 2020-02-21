@@ -1,0 +1,14 @@
+[package]
+name = "rust_book_server"
+version = "0.1.0"
+authors = ["Bruno Flores <bruno@brunoflores.com.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iron = "0.5.1"
+mime = "0.2.3"
+router = "0.5.1"
+urlencoded = "0.5.0"
+rust_book_gcd = { git = "https://github.com/brunoflores/gcd.git" }
